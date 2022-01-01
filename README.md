@@ -1,11 +1,15 @@
 ## NFT Marketplace with Rust on Solana
 
 ### Compile and Deploy Contracts
-- make sure you have solana installed
-- make sure you have rust installed
-- install phantom wallet on the browser or any from the list
-- make sure u have a solana wallet with SOL token (devnet)
-- Config to devnet
+- make sure you are working on a Linux Distro
+- If you have windows installed, make sure you have WSL installed. Either in WSL, or Linux:
+  - make sure you have solana installed
+  - make sure you have rust installed
+  - install phantom wallet on the browser or any from the list
+  - make sure u have a solana wallet with SOL token (devnet)
+  - Config to devnet
+
+- [Configuring Rust and Solana on WSL](https://medium.com/nerd-for-tech/how-to-setup-windows-subsystem-linux-with-visual-studio-code-on-windows-10-b06fdbe9b30b)
 
 ```
 solana config set --url devnet
